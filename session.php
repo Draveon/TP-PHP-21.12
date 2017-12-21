@@ -3,7 +3,6 @@
 
 if (isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['password'])) {
 
-	//echo 'Votre nom est '.$_POST['nom'].' et votre fonction est '.$_POST['fonction'];
 
 $_SESSION['nom'] = $_POST['name'];
 $_SESSION['prenom'] = $_POST['firstname'];
