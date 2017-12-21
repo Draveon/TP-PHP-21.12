@@ -6,10 +6,10 @@
 </style>
 
 <?php
+session_start();
 
 require "dashboard.php";
 
-session_start();
 $user = new Utilisateur();
 
 class Utilisateur
