@@ -9,6 +9,9 @@ $_SESSION['prenom'] = $_POST['firstname'];
 $_SESSION['email'] = $_POST['email'];
 $_SESSION['password'] = $_POST['password'];
 }
+else {
+  echo 'AUCUNE INFO RENSEIGNEE';
+}
  ?>
 
 <p class="hidden">
