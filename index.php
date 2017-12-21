@@ -1,3 +1,10 @@
+<style media="screen">
+  .hidden
+  {
+    display: none;
+  }
+</style>
+
 <?php
 
 require "session.php";
@@ -27,21 +34,19 @@ class Utilisateur
 
      <h1>LOGIN</h1>
 
-     <form class="" action="index.html" method="post">
+     <form class="" action="session.php" method="post">
       <legend>
      <label for="">Prenom</label>
-     <input type="text" name="" value="" placeholder="John">
+     <input type="text" name="name" value="" placeholder="John">
      <label for="">Nom</label>
-     <input type="text" name="" value="" placeholder="Doe">
+     <input type="text" name="firstname" value="" placeholder="Doe">
      <label for="">Email</label>
-     <input type="email" name="" value="" placeholder="john.doe@domain.com">
+     <input type="email" name="email" value="" placeholder="john.doe@domain.com">
      <label for="">Password</label>
-     <input type="password" name="" value="" placeholder="mdpsupersecure">
+     <input type="password" name="password" value="" placeholder="mdpsupersecure">
+     <input type="submit" name="" value="envoi">
       </legend>
      </form>
 
-     <p>
-        <a href="map.php">Lien vers mapage.php</a>
-    </p>
    </body>
  </html>
