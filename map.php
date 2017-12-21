@@ -7,7 +7,7 @@
 
 <?php
 session_start();
-require "session.php";
+require "dashboard.php";
 
 
  ?>
