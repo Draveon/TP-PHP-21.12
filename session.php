@@ -11,5 +11,7 @@ $_SESSION['password'] = $_POST['password'];
 }
  ?>
 
-
-         <a class="hidden" href="map.php">Accéder aux résultats</a>
+<p class="hidden">
+  Voici la page de traitement, cliquez ici pour accéder au résultat.
+<a href="map.php">Accéder aux résultats</a>
+</p>
